@@ -8,6 +8,7 @@ import "./App.css";
 
 import imgDarkMode from "../img/amongescuro.png";
 import imgLightMode from "../img/amongclaro.webp";
+import Footer from "../componets/footer/footer";
 
 const App = () => {
     const [isLightMode, setIsLightMode] = useState(false);
@@ -33,6 +34,7 @@ const App = () => {
                 <SocialLinks href={"#"} icon={"logo-facebook"} />
                 <SocialLinks href={"#"} icon={"logo-twitter"} />
             </div>
+            <Footer link={"#"}>@Gabs</Footer>
         </div>
     );
 };
